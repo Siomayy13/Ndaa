@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>🎉🎂 Surprise Buat Ndaa!! 🎁✨</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+</head>
+<body class="flex justify-center items-center h-screen bg-gradient-to-br from-pink-200 via-yellow-100 to-purple-200">
+
+    <div
+        id="kartu"
+        class="bg-white border-4 border-pink-400 px-8 py-10 rounded-3xl text-center shadow-2xl animate__animated animate__bounceIn w-[22rem]"
+    >
+        <h1 class="text-4xl font-extrabold text-pink-600 mb-2 animate__animated animate__heartBeat animate__infinite">
+            🎉 SSUUUSSSTTTT 🤫💥
+        </h1>
+
+        <h2 class="text-3xl text-red-500 font-bold animate__animated animate__rubberBand">
+            APEE NIICHH
+        </h2>
+
+        <h3 class="text-5xl mt-4 animate__animated animate__shakeY">
+            😱👇👇👇
+        </h3>
+
+        <button
+            onclick="window.location.href='Page1.html'"
+            class="mt-6 bg-blue-600 text-white text-lg font-semibold px-6 py-3 rounded-full hover:bg-blue-800 transition animate__animated animate__tada animate__infinite"
+        >
+            CEPET KLIK DISINI NDAAA!!! 🫣🎈
+        </button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+    <script>
+        // Confetti saat halaman dibuka
+        confetti({
+            particleCount: 150,
+            spread: 100,
+            origin: { y: 0.6 },
+        });
+    </script>
+</body>
+</html>
