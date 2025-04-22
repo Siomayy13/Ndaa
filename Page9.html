@@ -17,15 +17,15 @@
   <div class="bg-white rounded-3xl border-4 border-green-400 shadow-2xl text-center p-10 max-w-xl w-full animate__animated animate__bounceInDown">
 
     <h1 class="text-4xl md:text-5xl font-extrabold text-green-700 mb-4 animate__animated animate__tada animate__infinite">
-      🏆🎉 BENER BANGET BESTIEEEE!!! 🎯🌟
+      🏆🎉 BENER BANGET BESTIEEEEHH!!! 🎯🌟
     </h1>
 
     <p class="text-lg md:text-2xl text-gray-800 font-medium mb-4 animate__animated animate__fadeInUp">
-      Teteh tuh alergi sama udang! 🦐😭
+      Teteh tuh alergi sama udang! Kacian banget kann, padahal udang seenak itu.. 🦐😭
     </p>
 
     <p class="text-base md:text-lg text-green-600 font-semibold animate__animated animate__pulse animate__infinite">
-      Gaskeun bentar lagi... ⏳✨
+      Ya Udin, Gaskeun bentar lagi... ⏳✨
     </p>
 
   </div>
@@ -34,15 +34,13 @@
     // Pindah otomatis ke halaman selanjutnya setelah 5 detik
     setTimeout(() => window.location.href = "Page11.html", 5000);
 
-    // Efek konfeti looping setiap 4 detik (tanpa ledakan awal)
-    setInterval(() => {
-      confetti({
-        particleCount: 100,
-        spread: 70,
-        origin: { y: 0.6 },
-        scalar: 1,
-      });
-    }, 4000);
+    // Pecahin konfeti waktu halaman dibuka
+    confetti({
+      particleCount: 200,
+      spread: 100,
+      origin: { y: 0.6 },
+    });
+    
   </script>
 </body>
 </html>
